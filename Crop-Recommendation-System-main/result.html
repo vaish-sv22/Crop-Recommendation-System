@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Predicted Crop</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='style2.css')}}">
+</head>
+<body>
+    
+<div class="wrapper">
+    <div class="result-box">
+        <h1>Predicted Crop</h1>
+        <br>
+        <div class="result-container">
+            <p>{{ result }}</p>
+        </div>
+    </div>
+    <div class="image-container">
+    <div class="image-box">
+         <img src="{{ url_for('static', filename='accuracypic.jpg') }}" alt="Predicted Crop Image" class="crop-image">
+    </div>
+    <div class="image-box">
+        <img src="{{ url_for('static', filename='accuracysvm.jpg') }}" alt="Predicted Crop Image" class="crop-image">
+   </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background: url(crp.jpg) no-repeat center center/cover;
+}
+
+.title-container {
+    margin-top: 20px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 800px;
+    background: rgba(255, 255, 255, 0.85);
+    padding: 40px 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.form-container {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+input {
+    width: 90%;
+    max-width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #218838;
+}
