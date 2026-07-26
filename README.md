@@ -1,14 +1,14 @@
-# 🌾 Crop Recommendation System
+# Crop Recommendation System
 
 Recommends suitable crops to grow on the soil based on its **temperature, pH, and humidity**. This helps farmers choose the best crop for improved agricultural productivity.
 
-## 📖 About the Project
+## About the Project
 
 The **Crop Recommendation System** is a Machine Learning-based application that helps farmers and agricultural enthusiasts choose the most suitable crop to grow based on various environmental conditions such as:
 
-- 🌡️ Temperature
-- 💧 Humidity
-- 🧪 Soil pH
+- Temperature
+- Humidity
+- Soil pH
 
 The system predicts the **best crop** for a given set of environmental conditions. The model is trained on an **agricultural dataset** obtained from the **Kaggle** website.
 
@@ -16,31 +16,31 @@ It is built using **Python, Scikit-learn, and Pandas**, with a **Flask-based web
 
 ---
 
-## ✨ Features
+## Features
 
-- 🌱 Predicts the best crop to grow for given environmental conditions.
-- 📊 Trained on an agricultural dataset from Kaggle.
-- 🤖 Machine Learning-powered prediction system.
-- 🌐 User-friendly web interface using Flask.
-- 🔄 Easy to use and extendable for future agricultural applications.
-
----
-
-## 🛠️ Technologies Used
-
-- 🐍 **Python** (Pandas, NumPy, Scikit-learn)
-- 📓 **Jupyter Notebook** (for Training & Exploratory Data Analysis)
-- 🌐 **Flask** (Backend API)
-- 🎨 **HTML & CSS**
+- Predicts the best crop to grow for given environmental conditions.
+- Trained on an agricultural dataset from Kaggle.
+- Machine Learning-powered prediction system.
+- User-friendly web interface using Flask.
+- Easy to use and extendable for future agricultural applications.
 
 ---
 
-## 🤖 Machine Learning Models
+## Technologies Used
+
+- **Python** (Pandas, NumPy, Scikit-learn)
+- **Jupyter Notebook** (for Training & Exploratory Data Analysis)
+- **Flask** (Backend API)
+- **HTML & CSS**
+
+---
+
+## Machine Learning Models
 
 The project uses **Supervised Machine Learning** algorithms such as:
 
-- 🌟 Support Vector Machine (SVM)
-- 🌳 Random Forest
+- Support Vector Machine (SVM)
+- Random Forest
 
 The performance of both models is compared to identify the most accurate model for crop prediction.
 
